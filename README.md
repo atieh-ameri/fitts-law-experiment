@@ -2,12 +2,14 @@
 
 This repository contains a complete setup for running a Fitts’ Law pointing experiment and analyzing the resulting dataset. It includes:
 
-- `main.py` – the experiment program (run locally, e.g., in PyCharm)  
-- `raw_data.csv` – recorded movement data from the experiment  
-- A Google Colab notebook – for data analysis and statistical modeling  
-- `requirements.txt` – dependencies for running the experiment script
+- **main.py** – the experiment program (run locally, e.g., in PyCharm)
+- **raw_data.csv** – recorded movement data collected from participants
+- **Fitts_Law_Experiment_Analysis.ipynb** – a Google Colab notebook for data analysis, visualization, and statistical modeling  
+  *(open it in Colab to reproduce all figures, regressions, ANOVA tests, and summary tables used in the report)*
+- **requirements.txt** – dependencies needed to run the experiment script
 
-The project supports both data collection and data analysis, making it suitable for coursework, replication studies, and HCI research.
+This project supports both **data collection** and **data analysis**.
+
 
 ---
 
