@@ -35,6 +35,8 @@ The experiment script implements a controlled Fitts’ Law pointing task. Partic
    ```bash
    pip install -r requirements.txt
 
+---
+
 ## 2. Fitts’ Law Experiment Analysis Notebook
 
 The notebook **`Fitts_Law_Experiment_Analysis.ipynb`** contains the full analysis pipeline for the Fitts’ Law pointing experiment. It walks through:
