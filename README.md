@@ -32,3 +32,19 @@ The experiment script implements a controlled Fitts’ Law pointing task. Partic
 
    ```bash
    pip install -r requirements.txt
+
+## 2. Fitts’ Law Experiment Analysis Notebook
+
+The notebook **`Fitts_Law_Experiment_Analysis.ipynb`** contains the full analysis pipeline for the Fitts’ Law pointing experiment. It walks through:
+
+- loading the raw experimental data  
+- cleaning and preprocessing  
+- computing the Index of Difficulty (ID)  
+- summarizing movement time and error rates  
+- fitting Fitts’ Law regression models  
+- running additional statistical tests (e.g., ANOVA, regression on secondary factors)  
+- generating figures and tables used in the report  
+
+You can open this notebook directly in Google Colab and run all cells to reproduce the analysis.
+
+[Open the analysis notebook in Google Colab](https://colab.research.google.com/github/atieh-ameri/fitts-law-experiment/blob/main/Fitts_Law_Experiment_Analysis.ipynb)
