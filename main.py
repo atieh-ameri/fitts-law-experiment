@@ -8,7 +8,7 @@ DISTANCES = [180, 260, 360, 500]                   # px (amplitude)
 DIRECTIONS = [1, -1]                     # 1=right, -1=left
 BLOCKS = 10
 BASE_COMBOS = list(itertools.product(CIRCLE_DIAMETERS, DISTANCES, DIRECTIONS))
-CSV_PATH = "fitts_trials2.csv"
+CSV_PATH = "fitts_trials.csv"
 START_BTN_SIZE = 28
 
 # ---------- Unique ID ----------
